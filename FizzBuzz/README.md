@@ -9,10 +9,10 @@
 
 Reto completado en los lenguajes de programacion: 
 - [ ] Assembler
-- [ ] C
+- [X] C
 - [X] C++
-- [ ] Go
-- [ ] Java
+- [X] Go
+- [X] Java
 - [ ] Javascript
 - [ ] PHP
 - [X] Python
@@ -28,10 +28,10 @@ Reto completado en los lenguajes de programacion:
 
 Completed challenge in programming languages: 
 - [ ] Assembler
-- [ ] C
+- [X] C
 - [X] C++
-- [ ] Go
-- [ ] Java
+- [X] Go
+- [X] Java
 - [ ] Javascript
 - [ ] PHP
 - [X] Python
