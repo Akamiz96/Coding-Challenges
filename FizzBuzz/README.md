@@ -1,4 +1,6 @@
-# FIZZBUZZ
+# 🔢 FIZZBUZZ 🔢
+
+![FizzBuzz](https://solokotlin.com/wp-content/uploads/2021/11/FizzBuzz.webp)
 
 - Escribe un programa que muestre por consola (con un print) los números de 1 a 100 (ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:
     - Múltiplos de 3 por la palabra "fizz".
