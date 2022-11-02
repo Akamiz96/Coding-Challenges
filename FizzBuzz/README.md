@@ -16,7 +16,7 @@ Reto completado en los lenguajes de programacion:
 - [X] Javascript
 - [X] PHP
 - [X] Python
-- [ ] Ruby
+- [X] Ruby
 - [ ] Rust
 
  ---
@@ -35,5 +35,5 @@ Completed challenge in programming languages:
 - [X] Javascript
 - [X] PHP
 - [X] Python
-- [ ] Ruby
+- [X] Ruby
 - [ ] Rust
