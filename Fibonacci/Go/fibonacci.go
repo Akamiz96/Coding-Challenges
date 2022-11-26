@@ -2,24 +2,21 @@ package main
 
 import "fmt"
 
+const MAX = 20
+
 func main() {
+	num_2 := 0
+	num_1 := 1
+	fmt.Println(num_2)
+	fmt.Println(num_1)
 	//For loop.
-	for i := 1; i <= 100; i++ {
-		//Check multiple of 3 and 5
-		if i%3 == 0 && i%5 == 0 {
-			fmt.Println("fizzbuzz")
-			continue
-		}
-		//Check multiple of 3
-		if i%3 == 0 {
-			fmt.Println("fizz")
-			continue
-		}
-		//Check multiple of 5
-		if i%5 == 0 {
-			fmt.Println("buzz")
-			continue
-		}
-		fmt.Println(i)
+	for i := 2; i <= MAX; i++ {
+		// x = x(-1) + x(-2)
+		num_3 := num_1 + num_2
+		// Print it
+		fmt.Println(num_3)
+		// Change values to he right variables
+		num_2 = num_1
+		num_1 = num_3
 	} //End for loop.
 }
