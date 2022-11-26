@@ -1,39 +1,35 @@
-# 🔢 FIZZBUZZ 🔢
+# 🔢 FIBONACCI 🔢
 
-![FizzBuzz](https://solokotlin.com/wp-content/uploads/2021/11/FizzBuzz.webp)
+![Fibonacci](https://okdiario.com/img/2017/06/07/secuencia-de-fibonacci-2.jpg)
 
-- Escribe un programa que muestre por consola (con un print) los números de 1 a 100 (ambos incluidos y con un salto de línea entre cada impresión), sustituyendo los siguientes:
-    - Múltiplos de 3 por la palabra "fizz".
-    - Múltiplos de 5 por la palabra "buzz".
-    - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
+- Escribe un programa que imprima los 50 primeros números de la sucesión de Fibonacci empezando en 0. La serie Fibonacci se compone por una sucesión de números en la que el siguiente siempre es la suma de los dos anteriores.
+    * 0, 1, 1, 2, 3, 5, 8, 13...
 
 Reto completado en los lenguajes de programacion: 
 - [ ] Assembler
-- [X] C
-- [X] C++
-- [X] Go
-- [X] Java
-- [X] Javascript
-- [X] PHP
-- [X] Python
+- [ ] C
+- [ ] C++
+- [ ] Go
+- [ ] Java
+- [ ] Javascript
+- [ ] PHP
+- [ ] Python
 - [ ] Ruby
 - [ ] Rust
 
  ---
 
-- Write a program that displays on the console (with a print) the numbers from 1 to 100 (both included and with a line break between each print), substituting the following:
-    - Multiples of 3 for the word "fizz".
-    - Multiples of 5 for the word "buzz".
-    - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
+- Write a program that prints the first 50 numbers of the Fibonacci sequence starting at 0. The Fibonacci series is made up of a sequence of numbers in which the next number is always the sum of the previous two.
+    * 0, 1, 1, 2, 3, 5, 8, 13...
 
 Completed challenge in programming languages: 
 - [ ] Assembler
-- [X] C
-- [X] C++
-- [X] Go
-- [X] Java
-- [X] Javascript
-- [X] PHP
-- [X] Python
+- [ ] C
+- [ ] C++
+- [ ] Go
+- [ ] Java
+- [ ] Javascript
+- [ ] PHP
+- [ ] Python
 - [ ] Ruby
 - [ ] Rust

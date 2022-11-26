@@ -8,9 +8,8 @@
     - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
 
 Reto completado en los lenguajes de programacion: 
-- [ ] Assembler
 - [X] C
-- [X] C++
+- [X] C++ 
 - [X] Go
 - [X] Java
 - [X] Javascript
@@ -27,7 +26,6 @@ Reto completado en los lenguajes de programacion:
     - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 
 Completed challenge in programming languages: 
-- [ ] Assembler
 - [X] C
 - [X] C++
 - [X] Go

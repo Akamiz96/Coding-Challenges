@@ -7,7 +7,9 @@ One of the ways to learn programming is to do programming challenges. This repos
 ## List of challenges 
 
 1. FizzBuzz: 
+    * [FizzBuzz Folder](/FizzBuzz/README.md)
 2. Secuencia de Fibonacci (Fibonacci Sequence):
+    * [Fibanacci Sequence Folder](/Fibonacci/README.md)
 3. ¿Es un número primo? (Is it a prime number?):
 4. Factorial Recursivo (Recursive Factorial):
 5. Máximo común divisor y Mínimo común múltiplo (MCD & MCM): 
