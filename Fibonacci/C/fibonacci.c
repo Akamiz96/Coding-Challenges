@@ -1,28 +1,22 @@
 #include <stdio.h>
-// Define a max for the loop
-#define MAX 100 
+// Define a max for the loop (Number of terms)
+#define MAX 20 
 
 int main(int argc, char const *argv[])
 {
+    int num_1 = 1, num_2 = 0, num_3; 
+    printf("%d\n",num_2);
+    printf("%d\n",num_1);
     //For loop.
-    for (int i = 1; i <= MAX; i++)
+    for (int i = 2; i <= MAX; i++)
     {
-        //Check multiple of 3 and 5
-        if(i % 3 == 0 && i % 5 == 0){
-            printf("fizzbuzz\n");
-            continue;
-        }
-        //Check multiple of 3 
-        if(i % 3 == 0){
-            printf("fizz\n");
-            continue;
-        }
-        //Check multiple of 5
-        if(i % 5 == 0){
-            printf("buzz\n");
-            continue;
-        }
-        printf("%i\n",i);
+        // x = x(-1) + x(-2)
+        num_3 = num_1 + num_2;
+        // Print it
+        printf("%d\n",num_3);
+        // Change values to he right variables
+        num_2 = num_1;
+        num_1 = num_3;
     }//End for loop.
     return 0;
 }

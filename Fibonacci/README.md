@@ -6,9 +6,8 @@
     * 0, 1, 1, 2, 3, 5, 8, 13...
 
 Reto completado en los lenguajes de programacion: 
-- [ ] Assembler
-- [ ] C
-- [ ] C++
+- [X] C
+- [X] C++
 - [ ] Go
 - [ ] Java
 - [ ] Javascript
@@ -23,9 +22,8 @@ Reto completado en los lenguajes de programacion:
     * 0, 1, 1, 2, 3, 5, 8, 13...
 
 Completed challenge in programming languages: 
-- [ ] Assembler
-- [ ] C
-- [ ] C++
+- [X] C
+- [X] C++
 - [ ] Go
 - [ ] Java
 - [ ] Javascript
