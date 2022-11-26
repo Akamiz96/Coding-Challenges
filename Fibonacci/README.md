@@ -12,7 +12,7 @@ Reto completado en los lenguajes de programacion:
 - [X] Java
 - [X] Javascript
 - [X] PHP
-- [ ] Python
+- [X] Python
 - [ ] Ruby
 - [ ] Rust
 
@@ -28,6 +28,6 @@ Completed challenge in programming languages:
 - [X] Java
 - [X] Javascript
 - [X] PHP
-- [ ] Python
+- [X] Python
 - [ ] Ruby
 - [ ] Rust
