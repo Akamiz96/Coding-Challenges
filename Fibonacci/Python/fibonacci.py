@@ -10,7 +10,7 @@ def fibonacci():
     for i in range(2,MAX):
         # x = x(-1) + x(-2)
         num_3 = num_1 + num_2
-       # Print it
+        # Print it
         print(num_3)
         # Change values to the right variables
         num_2 = num_1
