@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
         num_3 = num_1 + num_2;
         // Print it
         printf("%d\n",num_3);
-        // Change values to he right variables
+        // Change values to the right variables
         num_2 = num_1;
         num_1 = num_3;
     }//End for loop.

@@ -15,7 +15,7 @@ func main() {
 		num_3 := num_1 + num_2
 		// Print it
 		fmt.Println(num_3)
-		// Change values to he right variables
+		// Change values to the right variables
 		num_2 = num_1
 		num_1 = num_3
 	} //End for loop.
