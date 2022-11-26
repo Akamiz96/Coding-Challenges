@@ -1,33 +1,29 @@
-package FizzBuzz.Java;
+package Fibonacci.Java;
 
 /**
- * fizzbuzz
+ * fibonacci
  */
-public class fizzbuzz {
+public class fibonacci {
+
+    private static int MAX = 20;
 
     public static void main(String[] args) {
-        fizzbuzz_func();
+        fibonacci_func();
     }
 
-    private static void fizzbuzz_func() {
+    private static void fibonacci_func() {
+        int num_1 = 1, num_2 = 0, num_3;
+        System.out.println(num_2);
+        System.out.println(num_1);
         //For loop.
-        for (int i = 1; i <= 100; i++) {
-            //Check multiple of 3 and 5
-            if (i % 5 == 0 && i % 3 == 0) {
-                System.out.println("fizzbuzz");
-                continue;
-            }
-            //Check multiple of 3 
-            if (i % 3 == 0) {
-                System.out.println("fizz");
-                continue;
-            }
-            //Check multiple of 5
-            if (i % 5 == 0) {
-                System.out.println("buzz");
-                continue;
-            }
-            System.out.println(i);
+        for (int i = 2; i <= MAX; i++) {
+            // x = x(-1) + x(-2)
+            num_3 = num_1 + num_2;
+            // Print it
+            System.out.println(num_3);
+            // Change values to he right variables
+            num_2 = num_1;
+            num_1 = num_3;
         }//End for loop.
     }
 }
