@@ -1,4 +1,4 @@
-package FizzBuzz.Java;
+package Factorial.Java;
 
 /**
  * fizzbuzz
