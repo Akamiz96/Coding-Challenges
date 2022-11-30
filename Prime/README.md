@@ -7,7 +7,7 @@
 Reto completado en los lenguajes de programacion: 
 - [X] C
 - [X] C++
-- [ ] Go
+- [X] Go
 - [ ] Java
 - [ ] Javascript
 - [ ] PHP
@@ -22,7 +22,7 @@ Reto completado en los lenguajes de programacion:
 Completed challenge in programming languages: 
 - [X] C
 - [X] C++
-- [ ] Go
+- [X] Go
 - [ ] Java
 - [ ] Javascript
 - [ ] PHP
