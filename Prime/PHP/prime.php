@@ -1,21 +1,35 @@
 <?php
-    //For loop.
-    for ($i=1; $i < 101; $i++) { 
-        //Check multiple of 3 and 5
-        if ($i % 5 == 0 && $i % 3 == 0) {
-            print("fizzbuzz\n");
-            continue;
+
+$number = (int)readline('Enter an integer: ');
+$prime = is_prime($number);
+
+if ($prime == -1) {
+    echo("-------------------------------------\n");
+    echo("Prime is not define for the number\n");
+    echo("-------------------------------------\n");
+    return 1;
+  }
+  if ($prime == 1) {
+    echo("-------------------------------------\n");
+    echo("The number is prime\n");
+    echo("-------------------------------------\n");
+    return 0;
+  }
+  echo("-------------------------------------\n");
+  echo("The number is not prime\n");
+  echo("-------------------------------------\n");
+  return 0;
+
+function is_prime($number){
+    if ($number < 2) {
+        return -1;
+    }
+
+    // For loop.
+    for ($i = 2; $i < $number; $i++) {
+        if ($number % $i == 0) {
+            return 0;
         }
-        //Check multiple of 3
-        if ($i % 3 == 0) {
-            print("fizz\n");
-            continue;
-        }
-        //Check multiple of 5
-        if ($i % 5 == 0) {
-            print("buzz\n");
-            continue;
-        }
-        printf("%u\n", $i);
-    }//End for loop.
-?>
+    } // End for loop.
+    return 1;
+}
